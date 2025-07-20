@@ -17,11 +17,13 @@
         const paragraph = <p>This is a paragraph</p>;
 
 
-        const div = <div>
-          <h1>Hello World</h1>
-          <p>This is a paragraph</p>
-          <button>Click me</button>
-        </div>;
+        const div = (
+          <div>
+            <h1>Hello World</h1>
+            <p>This is a paragraph</p>
+            <button>Click me</button>
+          </div>
+        );
         
       const container = document.querySelector('.js-container');
       ReactDOM.createRoot(container).render(div);
